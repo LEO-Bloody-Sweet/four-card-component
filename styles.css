@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+main {
+  width: 80%;
+  height: 80%;
+}
+
+.top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top .text {
+  color: hsl(229, 6%, 66%);
+  font-size: 29px;
+  font-weight: 200px;
+}
+
+.top p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.top p span {
+  display: block;
+}
+
+.top p span .text-2 {
+  margin-left: 5px;
+}
+
+.bottom {
+  display: flex;
+  height: 70%;
+  width: 100%;
+}
+
+.left-card {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px var(--grayish-blue);
+  padding: 20px;
+}
+
+.card1 h3 {
+  margin-bottom: 12px;
+}
+
+.card1 p {
+  line-height: 26px;
+  color: hsl(229, 6%, 66%);
+}
+
+.card1 .img1 {
+  float: right;
+}
+
+.card1 .img1 img {
+  height: 30px;
+  width: 30px;
+}
+
+.middle-cards {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 33%;
+}
+
+.card2 {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px var(--grayish-blue);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.card2 h3 {
+  margin-bottom: 12px;
+}
+
+.card2 p {
+  line-height: 26px;
+  color: hsl(229, 6%, 66%);
+}
+
+.card2 .img2 {
+  float: right;
+}
+
+.card2 .img2 img {
+  height: 30px;
+  width: 30px;
+}
+
+.card3 {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px var(--grayish-blue);
+  padding: 20px;
+  /* margin-bottom: 70px; */
+}
+
+.card3 h3 {
+  margin-bottom: 12px;
+}
+
+.card3 p {
+  line-height: 26px;
+  color: hsl(229, 6%, 66%);
+}
+
+.card3 .img3 {
+  float: right;
+}
+
+.card3 .img3 img {
+  height: 30px;
+  width: 30px;
+}
+
+.right-card {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card4 {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px var(--grayish-blue);
+  padding: 20px;
+}
+
+.card4 h3 {
+  margin-bottom: 12px;
+}
+
+.card4 p {
+  line-height: 26px;
+  color: hsl(229, 6%, 66%);
+}
+
+.card4 .img4 {
+  float: right;
+}
+
+.card4 .img4 img {
+  height: 30px;
+  width: 30px;
+}
